@@ -1,0 +1,455 @@
+{
+  "schema": "forge_public_media_inventory_v1",
+  "game": "Titans of War: Revolution",
+  "assets": [
+    {
+      "path": "public/audio/bach-goldberg-aria.mp3",
+      "sha256": "f0b319eece23b4ccc2e969e1329f96b9f96027e794d073c7adf606dc26463f08",
+      "bytes": 7021056,
+      "rights_status": "Separate soundtrack terms and source links in MEDIA_RIGHTS.md"
+    },
+    {
+      "path": "public/audio/handel-water-music-sarabande.mp3",
+      "sha256": "d95226714dfd71bbe2398866d38591ba6c737c317e6a5385deb06a84a67ead4a",
+      "bytes": 4283445,
+      "rights_status": "Separate soundtrack terms and source links in MEDIA_RIGHTS.md"
+    },
+    {
+      "path": "public/images/battles/brandywine.webp",
+      "sha256": "1ac637a5f876e42351ca76fc6115af2c63b659093de2aaf31300f1cb5ad6ac9b",
+      "bytes": 370088,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/battles/bunker-hill.webp",
+      "sha256": "c46e442ae987a0ef20aaa6c734e0b6b5ba6feaa013c62473bfbf1a4e1ef5c556",
+      "bytes": 227352,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/battles/cowpens.webp",
+      "sha256": "5e1dacfe907a21882625cfb1bc3cdd509891e09b9c8070750c396452ab2de085",
+      "bytes": 548632,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/battles/long-island.webp",
+      "sha256": "08cfef345c9f45917eb8b6defeda467e178c30de6e29f9be5b78dd2bcda49db4",
+      "bytes": 273062,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/battles/monmouth.webp",
+      "sha256": "b5a75480a4807272ce4c831e210231756b9762f62899bff43af09739fbc68995",
+      "bytes": 370742,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/battles/saratoga.webp",
+      "sha256": "d62400764f1e3e1a576b83cb7725261c86d152555272990c5117f263a601112c",
+      "bytes": 336894,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/battles/trenton.webp",
+      "sha256": "88ca17cbaf956325ac35eab74cfda856b39c05fdf1ac6b995c2265d2049f71f5",
+      "bytes": 357168,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/boston-cambridge-1775.webp",
+      "sha256": "e4119aab0d543c06f47a8c2c4546cb653610334eea744dab4839eba3f29eecee",
+      "bytes": 292160,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/brandywine-1777.webp",
+      "sha256": "692ce51d045acd8f6961040c9a5bd15e2f9ffc2a0a8b66602f9844365d0542a6",
+      "bytes": 217356,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/carolinas-1781.webp",
+      "sha256": "5984d54d02c5bf1a5fc0106d682302b8ab48936b5d08e01986fe3ed8ac1a96e7",
+      "bytes": 227430,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/delaware-winter-1776.webp",
+      "sha256": "071758521dc7eca26d1ec7181e118cb607e246b30533d58fbe7e2e348774da9f",
+      "bytes": 166588,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/dunlap-print-shop-1776.webp",
+      "sha256": "bac6b774e18b2c329d6167735f4f574bb89d617906a2704480a5cec70bf194d2",
+      "bytes": 169924,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/frontier-1779.webp",
+      "sha256": "def0ada3a7479fcf51917e9b1c9fddf13984a32a2a7f1b2621e624334dde2b3f",
+      "bytes": 284502,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/independence-vote-1776.webp",
+      "sha256": "0c9705f87a28fddc9719463ef3ed16420bca0ecaf271b18af5acd1a8e0e17bfc",
+      "bytes": 188608,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/monmouth-1778.webp",
+      "sha256": "c5bfc7edd76167e9016fd8cb0fa8c73ce3178bea98802213d8130e0a067f5f32",
+      "bytes": 260206,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/new-york-harbor-1776.webp",
+      "sha256": "0b55de22312b3042840910b2869d334f8763fb809bf0d224ca8b9b9311e799bf",
+      "bytes": 232132,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/newport-alliance-1778.webp",
+      "sha256": "624b274fded3c8315b6fc36eda26a12d18689d6dc6d7357a65c22a29e5bbd994",
+      "bytes": 168718,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/paris-alliance-1778.webp",
+      "sha256": "99c094e50a7ff40475a3ed9d90feb5fc4c346fce2ee6a46f46acddad4caa7d6c",
+      "bytes": 180460,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/philadelphia-congress-1776.webp",
+      "sha256": "f3ce2575bbb4abf4a8403da2a9ffdd3c8c0ad4e9d824939cf2a2952a80705d87",
+      "bytes": 154412,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/saratoga-1777.webp",
+      "sha256": "436db1429c2a9d7e0d6a2bd9676a8266e05df319dc22faeee5380a0a9a339a4b",
+      "bytes": 286898,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/valley-forge-1778.webp",
+      "sha256": "866fbe0c817d34ade0c3d31e53c4e600f8e7ea528bdffa6476ea7d26665cbdb8",
+      "bytes": 236610,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/campaign/yorktown-1781.webp",
+      "sha256": "77e5863b4f8975b157caa18a69ba05d15bb0f2ee55c813cf885c7764751fed6b",
+      "bytes": 195712,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/german-tricorn-carry-v2.png",
+      "sha256": "9bc864f2bd295b3543494ca2d55831d1945726aa1cc74e3b2d7cd3101301e64e",
+      "bytes": 694737,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/german-tricorn-fire-v2.png",
+      "sha256": "707f50e7ada355ad50e8494a519f1bc9ef82273aab6b661099c41b92a68f916d",
+      "bytes": 935715,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-artillery-actions-v1.png",
+      "sha256": "e35319d8282b6bd2f7d87a4ca4d4aeeadb6e36d4a08180a6202c7c805a54deba",
+      "bytes": 1673833,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-artillery-haul-v1.png",
+      "sha256": "a43147e468657ec54f137a9fa097a131b3df6fb08f091bc612f59f8dde6ec457",
+      "bytes": 2220446,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-artillery-v1.png",
+      "sha256": "3ccba80ef1025baa1230ca7027af4292d827a070ab4f68de07e27e6a5b62395d",
+      "bytes": 1774706,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-cavalry-contact-v1.png",
+      "sha256": "29795dde7fff920fe87dcb07e637f7db861337e8518898ea537e8fa7dbee7ffa",
+      "bytes": 1837182,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-cavalry-trot-v1.png",
+      "sha256": "527080673a645d29e6e3ce37833f0104721bd2dbe767b56a9c38d73aef8d62c3",
+      "bytes": 1966589,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-cavalry-v1.png",
+      "sha256": "dc584ae65c5e2db860178765e3fc5afc876768eef308cdf12ef391037e6eba4d",
+      "bytes": 1929911,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-ferguson-depth-v1.png",
+      "sha256": "846026abaf54ad1eba000cd555a09a363e4ebf200f15d8b2751025abc3c24895",
+      "bytes": 1978757,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-ferguson-diagonal-v1.png",
+      "sha256": "ba14376a43aa09164ea382a6a8932e9cdfeaf5f37a8ae379cf77798ddc70f1ba",
+      "bytes": 1792436,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-ferguson-side-v1.png",
+      "sha256": "e8f65887c26f56481bc31be37b23d220eef37c76288109217f7c73b5845c1a32",
+      "bytes": 1586982,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-grenadier-depth-v1.png",
+      "sha256": "edcc52d0fec959db1ec04f22279df2eaa39c2112a8ed4e7bccf739c5507a5798",
+      "bytes": 1810140,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-grenadier-diagonal-v1.png",
+      "sha256": "fc62dabb36b26a503e03c3d62d4f86a7238f41f2058635be1d0978f9bdb0918c",
+      "bytes": 1862028,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-grenadier-side-v1.png",
+      "sha256": "759ad89f0b78b432ea6f13bc12c8f343594d61d55bf6bf0517a42d568b9330b6",
+      "bytes": 1652166,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-gunner-march-a-v1.png",
+      "sha256": "8478388c1f1e99f896a8e7123501c57ee814b7fc1604c19ea61d87133134df38",
+      "bytes": 1782298,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-gunner-march-b-v1.png",
+      "sha256": "c8ca35f333b157721a0a685d937126ca83bacac8e7a2463acb8c0baacfc39ae6",
+      "bytes": 1376213,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-carry-v1.png",
+      "sha256": "995047674f90e654e5524a84aff56ceed00f6c12a625331a44ab336b997ce907",
+      "bytes": 833321,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-contact-guard-v1.png",
+      "sha256": "6c8ec6076c38e93585814ee90fe106710140dcf75be95e659cab7db121182e9a",
+      "bytes": 1130118,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-contact-thrust-v1.png",
+      "sha256": "ab1a715cceff5c8075785f2922a77b92f57cac1e75b7ade9f2fd74c6e5498d09",
+      "bytes": 1619326,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-diagonal-british-v1.png",
+      "sha256": "5e038006c359203dd4306ff5b9232e1141a59cabd7c3035668eecea43fc1d84b",
+      "bytes": 1787272,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-diagonal-continental-v1.png",
+      "sha256": "2e5e52f900852f56603ec083e0b779c4addbb52b0a98337c546ecdb7d9934332",
+      "bytes": 1806108,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-diagonal-german-v1.png",
+      "sha256": "d48ae338a5ccb229066ccc937cf929d18fb0d6e20b11913d73b123df4a87f4ca",
+      "bytes": 1797474,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-diagonal-militia-v1.png",
+      "sha256": "a95f5182132123c39941d5098eb280a25208f52caa9cfc5c717e7417bc0d7b4d",
+      "bytes": 1897383,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-directions-british-v1.png",
+      "sha256": "ac7f26797b384eb70165f6be9f5ab1141ad12b4b860aca3488f56061131a2434",
+      "bytes": 1993144,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-directions-continental-v1.png",
+      "sha256": "54e4e9808032dc69f6f005fb88ad217b8bde99bd09bb633e56cbe71de5cd8dc8",
+      "bytes": 2068094,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-directions-german-v1.png",
+      "sha256": "ee02f9c8a10f3a98d33a0ab85fadbeb6829638ac3421d2c3a2a3ebcaaff102ba",
+      "bytes": 1957422,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-directions-militia-v1.png",
+      "sha256": "6e256101e29b7b790684abbbd8b054827f5b9421b4b0c22a8ce9aedf568fc828",
+      "bytes": 2235355,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-march-a-v1.png",
+      "sha256": "739d144aa35971fb40c901b98c882a1cf3170efff23cfa9cb671d4ed4f31afc7",
+      "bytes": 867785,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-march-b-v1.png",
+      "sha256": "9f634a1e66a9c3c6b8e0cc60e06ad6d9c95185a31128cd310fffacca3eba0c7a",
+      "bytes": 857974,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-reload-v1.png",
+      "sha256": "2144e3d222f9ed412d459a30378e4ad5fd40522691faa6a0ff85fef64a247498",
+      "bytes": 1086496,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-rig-parts-v1.png",
+      "sha256": "40951ad4979de7d7e107eecb57af7750e60a9e6135668a0f4e7fb52066cb60a0",
+      "bytes": 1519989,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-uniform-rig-v1.png",
+      "sha256": "f1fee032e69ab1d59c3f80e7291491b99329e36be50d1c269f5fd7911d3cfcdb",
+      "bytes": 1898264,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    },
+    {
+      "path": "public/images/units/revolution-infantry-v1.png",
+      "sha256": "f7a0177241bfd8e7bc262c9236a0298ff411b3e395154eea7125174ebf1d0fa1",
+      "bytes": 1000857,
+      "rights_status": "Project-generated OpenAI image, per retained rights records"
+    }
+  ],
+  "sanitized_art_records": [
+    {
+      "path": "INFANTRY_ART_PASS.md",
+      "source_sha256": "16d8f2e867101481006b258f433efb9dbc61d1ac27c28e9d26bf245d9848ef66",
+      "export_sha256": "16d8f2e867101481006b258f433efb9dbc61d1ac27c28e9d26bf245d9848ef66",
+      "redacted_paths": 0
+    },
+    {
+      "path": "ARTILLERY_ART_PASS.md",
+      "source_sha256": "b3fd78a1098ff8c2cf94cf67fb5d282d8bce0d275c535edae1bf9047de9e95fc",
+      "export_sha256": "b3fd78a1098ff8c2cf94cf67fb5d282d8bce0d275c535edae1bf9047de9e95fc",
+      "redacted_paths": 0
+    },
+    {
+      "path": "CAVALRY_ART_PASS.md",
+      "source_sha256": "15a4aaac96b112941d6ea0a07e13630fa362e2e23b8435b2f9446bc576e3c5f9",
+      "export_sha256": "15a4aaac96b112941d6ea0a07e13630fa362e2e23b8435b2f9446bc576e3c5f9",
+      "redacted_paths": 0
+    },
+    {
+      "path": "GERMAN_SPRITE_REVIEW.md",
+      "source_sha256": "5dc96228deb262a1dccf4c54d8e9ddd7afc60462f4878325af860b70d1d355c0",
+      "export_sha256": "5dc96228deb262a1dccf4c54d8e9ddd7afc60462f4878325af860b70d1d355c0",
+      "redacted_paths": 0
+    },
+    {
+      "path": "INFANTRY_RELOAD_ART_REVIEW.md",
+      "source_sha256": "124c47f9f400f00e278c0cc16aeb5863dbd08b7bfc6730035927d11cfe2a4562",
+      "export_sha256": "124c47f9f400f00e278c0cc16aeb5863dbd08b7bfc6730035927d11cfe2a4562",
+      "redacted_paths": 0
+    },
+    {
+      "path": "docs/ARTILLERY_ACTION_ASSET.md",
+      "source_sha256": "3503bc6e1ce26735348894f814dc108744a6240bd84abe9da6846aa6f9afb765",
+      "export_sha256": "85dc1553ea5dd82dcde7e0ded1f3ff698fa018a97cfe438a1fbc3070d3cd4c21",
+      "redacted_paths": 1
+    },
+    {
+      "path": "docs/CAVALRY_MOVEMENT_ASSET.md",
+      "source_sha256": "18ac2c3a158c55d001c806613e46764105beac118883a6ca0fd58b51e6f4282a",
+      "export_sha256": "09e9f10c5d55abdcbcdac64cc2f195702716b010e4036ce1872f3e8caa08f203",
+      "redacted_paths": 1
+    },
+    {
+      "path": "docs/FERGUSON_ASSETS.md",
+      "source_sha256": "281075a9cf456d00c4bb413b33f2e75be74a5bc83cc22a9ba11fbe1d766c4070",
+      "export_sha256": "281075a9cf456d00c4bb413b33f2e75be74a5bc83cc22a9ba11fbe1d766c4070",
+      "redacted_paths": 0
+    },
+    {
+      "path": "docs/GRENADIER_ASSETS.md",
+      "source_sha256": "369c89f9c3721ac08f8ee51c8c0e72be4bf0671d048fa108ed8a9e42712d1d84",
+      "export_sha256": "369c89f9c3721ac08f8ee51c8c0e72be4bf0671d048fa108ed8a9e42712d1d84",
+      "redacted_paths": 0
+    },
+    {
+      "path": "docs/INFANTRY_CONTACT_ASSET.md",
+      "source_sha256": "c713d0fc8f98e3f4d60671f5c7cbf29da0127520804b8d1feda90ff71934e799",
+      "export_sha256": "8113e9eecc7c37f9f6dc4862f0aaff9e49d7ec03883e07c663935ef878a5cd03",
+      "redacted_paths": 1
+    },
+    {
+      "path": "docs/INFANTRY_CONTACT_CYCLE_ASSET.md",
+      "source_sha256": "b1260746b813c93e665db91169ba7db4044d1864c0006354ef61c630074eaca7",
+      "export_sha256": "e4795c66f03ccee506239d7d3ec522e36086fed3b2e8c82dd1c0a2e38edd25ec",
+      "redacted_paths": 1
+    },
+    {
+      "path": "docs/INFANTRY_DIAGONAL_ASSETS.md",
+      "source_sha256": "31ef92545478777ed694fc89b7112fb30844f4034887c4e64f100b4f9e62a9fd",
+      "export_sha256": "31ef92545478777ed694fc89b7112fb30844f4034887c4e64f100b4f9e62a9fd",
+      "redacted_paths": 0
+    },
+    {
+      "path": "docs/INFANTRY_DIRECTIONAL_ASSETS.md",
+      "source_sha256": "578f4ed83a03091a169030135533d2351828bb364506e6fb3c6c4b98d6dbbe70",
+      "export_sha256": "578f4ed83a03091a169030135533d2351828bb364506e6fb3c6c4b98d6dbbe70",
+      "redacted_paths": 0
+    },
+    {
+      "path": "docs/INFANTRY_MARCH_ASSET.md",
+      "source_sha256": "e9a32b744d1b3038c4de99e36fd775322d3a79e1e4c1b68bea1dfd3be040cc67",
+      "export_sha256": "36ce9c63c3b62ca0e6352762deb09e699c737231027022b50f7655041b8c2078",
+      "redacted_paths": 1
+    },
+    {
+      "path": "docs/INFANTRY_STRIDE_RIG_ASSET.md",
+      "source_sha256": "5778cd6ff6795b355695a3989d8955123715f1b3d7636cafa2e9a707e7ad5fd2",
+      "export_sha256": "6d9a0120e1ac1b376a7d34f2085e08186ef17b4942426a95f9733fd9415dd423",
+      "redacted_paths": 2
+    },
+    {
+      "path": "docs/INFANTRY_UNIFORM_RIG_ASSET.md",
+      "source_sha256": "aa0b680441d75466926918157eb3a8324be5532481dd9fcc301ec6ae5100db89",
+      "export_sha256": "3113c33252c01e89045ebe302c7261451c0c313cd0f2823f5c318e590ab40fc9",
+      "redacted_paths": 3
+    },
+    {
+      "path": "docs/SUPPORT_ACTION_ASSETS.md",
+      "source_sha256": "2c8dea3b5c5744dac57082ff9340710967ee0254a8f1d21bf2654631d03e4a15",
+      "export_sha256": "531a5b93a5e08a04f485ad3011f1a2738b272a42259846d663451bef7088570b",
+      "redacted_paths": 4
+    }
+  ],
+  "private_generation_records": "Not exported; retained privately by project owner",
+  "rights_gate": "Owner publication review pending",
+  "not_a_blanket_media_license": true
+}

@@ -1,0 +1,750 @@
+{
+  "schema": "forge_selected_runtime_snapshot_v1",
+  "snapshot_date": "2026-09-30",
+  "package_version": "1.0.2",
+  "input_manifest_sha256": "401a40c26d3b1b70887c23ea30486df5fe2a6f75ce3bf3e25c39807a3b380b06",
+  "history_included": false,
+  "runtime_files": [
+    {
+      "path": "index.html",
+      "sha256": "8fffd3e639906a51a6453fa633df186559c12eb3249038b0b39dd389d9fd48b5",
+      "bytes": 487
+    },
+    {
+      "path": "public/audio/bach-goldberg-aria.mp3",
+      "sha256": "f0b319eece23b4ccc2e969e1329f96b9f96027e794d073c7adf606dc26463f08",
+      "bytes": 7021056
+    },
+    {
+      "path": "public/audio/handel-water-music-sarabande.mp3",
+      "sha256": "d95226714dfd71bbe2398866d38591ba6c737c317e6a5385deb06a84a67ead4a",
+      "bytes": 4283445
+    },
+    {
+      "path": "public/images/battles/brandywine.webp",
+      "sha256": "1ac637a5f876e42351ca76fc6115af2c63b659093de2aaf31300f1cb5ad6ac9b",
+      "bytes": 370088
+    },
+    {
+      "path": "public/images/battles/bunker-hill.webp",
+      "sha256": "c46e442ae987a0ef20aaa6c734e0b6b5ba6feaa013c62473bfbf1a4e1ef5c556",
+      "bytes": 227352
+    },
+    {
+      "path": "public/images/battles/cowpens.webp",
+      "sha256": "5e1dacfe907a21882625cfb1bc3cdd509891e09b9c8070750c396452ab2de085",
+      "bytes": 548632
+    },
+    {
+      "path": "public/images/battles/long-island.webp",
+      "sha256": "08cfef345c9f45917eb8b6defeda467e178c30de6e29f9be5b78dd2bcda49db4",
+      "bytes": 273062
+    },
+    {
+      "path": "public/images/battles/monmouth.webp",
+      "sha256": "b5a75480a4807272ce4c831e210231756b9762f62899bff43af09739fbc68995",
+      "bytes": 370742
+    },
+    {
+      "path": "public/images/battles/saratoga.webp",
+      "sha256": "d62400764f1e3e1a576b83cb7725261c86d152555272990c5117f263a601112c",
+      "bytes": 336894
+    },
+    {
+      "path": "public/images/battles/trenton.webp",
+      "sha256": "88ca17cbaf956325ac35eab74cfda856b39c05fdf1ac6b995c2265d2049f71f5",
+      "bytes": 357168
+    },
+    {
+      "path": "public/images/campaign/boston-cambridge-1775.webp",
+      "sha256": "e4119aab0d543c06f47a8c2c4546cb653610334eea744dab4839eba3f29eecee",
+      "bytes": 292160
+    },
+    {
+      "path": "public/images/campaign/brandywine-1777.webp",
+      "sha256": "692ce51d045acd8f6961040c9a5bd15e2f9ffc2a0a8b66602f9844365d0542a6",
+      "bytes": 217356
+    },
+    {
+      "path": "public/images/campaign/carolinas-1781.webp",
+      "sha256": "5984d54d02c5bf1a5fc0106d682302b8ab48936b5d08e01986fe3ed8ac1a96e7",
+      "bytes": 227430
+    },
+    {
+      "path": "public/images/campaign/delaware-winter-1776.webp",
+      "sha256": "071758521dc7eca26d1ec7181e118cb607e246b30533d58fbe7e2e348774da9f",
+      "bytes": 166588
+    },
+    {
+      "path": "public/images/campaign/dunlap-print-shop-1776.webp",
+      "sha256": "bac6b774e18b2c329d6167735f4f574bb89d617906a2704480a5cec70bf194d2",
+      "bytes": 169924
+    },
+    {
+      "path": "public/images/campaign/frontier-1779.webp",
+      "sha256": "def0ada3a7479fcf51917e9b1c9fddf13984a32a2a7f1b2621e624334dde2b3f",
+      "bytes": 284502
+    },
+    {
+      "path": "public/images/campaign/independence-vote-1776.webp",
+      "sha256": "0c9705f87a28fddc9719463ef3ed16420bca0ecaf271b18af5acd1a8e0e17bfc",
+      "bytes": 188608
+    },
+    {
+      "path": "public/images/campaign/monmouth-1778.webp",
+      "sha256": "c5bfc7edd76167e9016fd8cb0fa8c73ce3178bea98802213d8130e0a067f5f32",
+      "bytes": 260206
+    },
+    {
+      "path": "public/images/campaign/new-york-harbor-1776.webp",
+      "sha256": "0b55de22312b3042840910b2869d334f8763fb809bf0d224ca8b9b9311e799bf",
+      "bytes": 232132
+    },
+    {
+      "path": "public/images/campaign/newport-alliance-1778.webp",
+      "sha256": "624b274fded3c8315b6fc36eda26a12d18689d6dc6d7357a65c22a29e5bbd994",
+      "bytes": 168718
+    },
+    {
+      "path": "public/images/campaign/paris-alliance-1778.webp",
+      "sha256": "99c094e50a7ff40475a3ed9d90feb5fc4c346fce2ee6a46f46acddad4caa7d6c",
+      "bytes": 180460
+    },
+    {
+      "path": "public/images/campaign/philadelphia-congress-1776.webp",
+      "sha256": "f3ce2575bbb4abf4a8403da2a9ffdd3c8c0ad4e9d824939cf2a2952a80705d87",
+      "bytes": 154412
+    },
+    {
+      "path": "public/images/campaign/saratoga-1777.webp",
+      "sha256": "436db1429c2a9d7e0d6a2bd9676a8266e05df319dc22faeee5380a0a9a339a4b",
+      "bytes": 286898
+    },
+    {
+      "path": "public/images/campaign/valley-forge-1778.webp",
+      "sha256": "866fbe0c817d34ade0c3d31e53c4e600f8e7ea528bdffa6476ea7d26665cbdb8",
+      "bytes": 236610
+    },
+    {
+      "path": "public/images/campaign/yorktown-1781.webp",
+      "sha256": "77e5863b4f8975b157caa18a69ba05d15bb0f2ee55c813cf885c7764751fed6b",
+      "bytes": 195712
+    },
+    {
+      "path": "public/images/units/german-tricorn-carry-v2.png",
+      "sha256": "9bc864f2bd295b3543494ca2d55831d1945726aa1cc74e3b2d7cd3101301e64e",
+      "bytes": 694737
+    },
+    {
+      "path": "public/images/units/german-tricorn-fire-v2.png",
+      "sha256": "707f50e7ada355ad50e8494a519f1bc9ef82273aab6b661099c41b92a68f916d",
+      "bytes": 935715
+    },
+    {
+      "path": "public/images/units/revolution-artillery-actions-v1.png",
+      "sha256": "e35319d8282b6bd2f7d87a4ca4d4aeeadb6e36d4a08180a6202c7c805a54deba",
+      "bytes": 1673833
+    },
+    {
+      "path": "public/images/units/revolution-artillery-haul-v1.png",
+      "sha256": "a43147e468657ec54f137a9fa097a131b3df6fb08f091bc612f59f8dde6ec457",
+      "bytes": 2220446
+    },
+    {
+      "path": "public/images/units/revolution-artillery-v1.png",
+      "sha256": "3ccba80ef1025baa1230ca7027af4292d827a070ab4f68de07e27e6a5b62395d",
+      "bytes": 1774706
+    },
+    {
+      "path": "public/images/units/revolution-cavalry-contact-v1.png",
+      "sha256": "29795dde7fff920fe87dcb07e637f7db861337e8518898ea537e8fa7dbee7ffa",
+      "bytes": 1837182
+    },
+    {
+      "path": "public/images/units/revolution-cavalry-trot-v1.png",
+      "sha256": "527080673a645d29e6e3ce37833f0104721bd2dbe767b56a9c38d73aef8d62c3",
+      "bytes": 1966589
+    },
+    {
+      "path": "public/images/units/revolution-cavalry-v1.png",
+      "sha256": "dc584ae65c5e2db860178765e3fc5afc876768eef308cdf12ef391037e6eba4d",
+      "bytes": 1929911
+    },
+    {
+      "path": "public/images/units/revolution-ferguson-depth-v1.png",
+      "sha256": "846026abaf54ad1eba000cd555a09a363e4ebf200f15d8b2751025abc3c24895",
+      "bytes": 1978757
+    },
+    {
+      "path": "public/images/units/revolution-ferguson-diagonal-v1.png",
+      "sha256": "ba14376a43aa09164ea382a6a8932e9cdfeaf5f37a8ae379cf77798ddc70f1ba",
+      "bytes": 1792436
+    },
+    {
+      "path": "public/images/units/revolution-ferguson-side-v1.png",
+      "sha256": "e8f65887c26f56481bc31be37b23d220eef37c76288109217f7c73b5845c1a32",
+      "bytes": 1586982
+    },
+    {
+      "path": "public/images/units/revolution-grenadier-depth-v1.png",
+      "sha256": "edcc52d0fec959db1ec04f22279df2eaa39c2112a8ed4e7bccf739c5507a5798",
+      "bytes": 1810140
+    },
+    {
+      "path": "public/images/units/revolution-grenadier-diagonal-v1.png",
+      "sha256": "fc62dabb36b26a503e03c3d62d4f86a7238f41f2058635be1d0978f9bdb0918c",
+      "bytes": 1862028
+    },
+    {
+      "path": "public/images/units/revolution-grenadier-side-v1.png",
+      "sha256": "759ad89f0b78b432ea6f13bc12c8f343594d61d55bf6bf0517a42d568b9330b6",
+      "bytes": 1652166
+    },
+    {
+      "path": "public/images/units/revolution-gunner-march-a-v1.png",
+      "sha256": "8478388c1f1e99f896a8e7123501c57ee814b7fc1604c19ea61d87133134df38",
+      "bytes": 1782298
+    },
+    {
+      "path": "public/images/units/revolution-gunner-march-b-v1.png",
+      "sha256": "c8ca35f333b157721a0a685d937126ca83bacac8e7a2463acb8c0baacfc39ae6",
+      "bytes": 1376213
+    },
+    {
+      "path": "public/images/units/revolution-infantry-carry-v1.png",
+      "sha256": "995047674f90e654e5524a84aff56ceed00f6c12a625331a44ab336b997ce907",
+      "bytes": 833321
+    },
+    {
+      "path": "public/images/units/revolution-infantry-contact-guard-v1.png",
+      "sha256": "6c8ec6076c38e93585814ee90fe106710140dcf75be95e659cab7db121182e9a",
+      "bytes": 1130118
+    },
+    {
+      "path": "public/images/units/revolution-infantry-contact-thrust-v1.png",
+      "sha256": "ab1a715cceff5c8075785f2922a77b92f57cac1e75b7ade9f2fd74c6e5498d09",
+      "bytes": 1619326
+    },
+    {
+      "path": "public/images/units/revolution-infantry-diagonal-british-v1.png",
+      "sha256": "5e038006c359203dd4306ff5b9232e1141a59cabd7c3035668eecea43fc1d84b",
+      "bytes": 1787272
+    },
+    {
+      "path": "public/images/units/revolution-infantry-diagonal-continental-v1.png",
+      "sha256": "2e5e52f900852f56603ec083e0b779c4addbb52b0a98337c546ecdb7d9934332",
+      "bytes": 1806108
+    },
+    {
+      "path": "public/images/units/revolution-infantry-diagonal-german-v1.png",
+      "sha256": "d48ae338a5ccb229066ccc937cf929d18fb0d6e20b11913d73b123df4a87f4ca",
+      "bytes": 1797474
+    },
+    {
+      "path": "public/images/units/revolution-infantry-diagonal-militia-v1.png",
+      "sha256": "a95f5182132123c39941d5098eb280a25208f52caa9cfc5c717e7417bc0d7b4d",
+      "bytes": 1897383
+    },
+    {
+      "path": "public/images/units/revolution-infantry-directions-british-v1.png",
+      "sha256": "ac7f26797b384eb70165f6be9f5ab1141ad12b4b860aca3488f56061131a2434",
+      "bytes": 1993144
+    },
+    {
+      "path": "public/images/units/revolution-infantry-directions-continental-v1.png",
+      "sha256": "54e4e9808032dc69f6f005fb88ad217b8bde99bd09bb633e56cbe71de5cd8dc8",
+      "bytes": 2068094
+    },
+    {
+      "path": "public/images/units/revolution-infantry-directions-german-v1.png",
+      "sha256": "ee02f9c8a10f3a98d33a0ab85fadbeb6829638ac3421d2c3a2a3ebcaaff102ba",
+      "bytes": 1957422
+    },
+    {
+      "path": "public/images/units/revolution-infantry-directions-militia-v1.png",
+      "sha256": "6e256101e29b7b790684abbbd8b054827f5b9421b4b0c22a8ce9aedf568fc828",
+      "bytes": 2235355
+    },
+    {
+      "path": "public/images/units/revolution-infantry-march-a-v1.png",
+      "sha256": "739d144aa35971fb40c901b98c882a1cf3170efff23cfa9cb671d4ed4f31afc7",
+      "bytes": 867785
+    },
+    {
+      "path": "public/images/units/revolution-infantry-march-b-v1.png",
+      "sha256": "9f634a1e66a9c3c6b8e0cc60e06ad6d9c95185a31128cd310fffacca3eba0c7a",
+      "bytes": 857974
+    },
+    {
+      "path": "public/images/units/revolution-infantry-reload-v1.png",
+      "sha256": "2144e3d222f9ed412d459a30378e4ad5fd40522691faa6a0ff85fef64a247498",
+      "bytes": 1086496
+    },
+    {
+      "path": "public/images/units/revolution-infantry-rig-parts-v1.png",
+      "sha256": "40951ad4979de7d7e107eecb57af7750e60a9e6135668a0f4e7fb52066cb60a0",
+      "bytes": 1519989
+    },
+    {
+      "path": "public/images/units/revolution-infantry-uniform-rig-v1.png",
+      "sha256": "f1fee032e69ab1d59c3f80e7291491b99329e36be50d1c269f5fd7911d3cfcdb",
+      "bytes": 1898264
+    },
+    {
+      "path": "public/images/units/revolution-infantry-v1.png",
+      "sha256": "f7a0177241bfd8e7bc262c9236a0298ff411b3e395154eea7125174ebf1d0fa1",
+      "bytes": 1000857
+    },
+    {
+      "path": "src/App.jsx",
+      "sha256": "7c13660b92a7a139fe0bca0368cf2954ed8e250489127ab7de186cb9870b350f",
+      "bytes": 15056
+    },
+    {
+      "path": "src/battle/TrentonBattlefield.jsx",
+      "sha256": "83aa03c55f934defbe142823f32892a3545894b0659a0ca76ad50db60e6748d1",
+      "bytes": 60021
+    },
+    {
+      "path": "src/battle/artilleryAnimation.js",
+      "sha256": "33cb69cb9e272a4e1715d8349ec38e70902b190084324323aaca8e26a1233b85",
+      "bytes": 1654
+    },
+    {
+      "path": "src/battle/artilleryDeployment.js",
+      "sha256": "c152ea8fc0d99ae65c1d3bcd7edeeb8fdd62feaddad168877c6ca7b447d06ccc",
+      "bytes": 762
+    },
+    {
+      "path": "src/battle/artilleryMarchSprites.js",
+      "sha256": "33f25a43c38aad0a708ff685a585953bd251358e4d8f6dce1588c9796ce034e0",
+      "bytes": 1648
+    },
+    {
+      "path": "src/battle/artillerySprites.js",
+      "sha256": "ce1b6b3e2337e056faffc43536abe4672bf6ad190e50379e0d3ad2d3f012facb",
+      "bytes": 1555
+    },
+    {
+      "path": "src/battle/artilleryTransport.js",
+      "sha256": "e31b88ac16ef9aadeab8e78386bf3eaa5fdb394830a165f8a2a3dade81711ca7",
+      "bytes": 1895
+    },
+    {
+      "path": "src/battle/artilleryTravelMesh.js",
+      "sha256": "850a61722e6d96b97c3f2516ac79d9a8c03a6e67c722496e67b2f3a26c4587af",
+      "bytes": 1324
+    },
+    {
+      "path": "src/battle/artilleryTravelMotion.js",
+      "sha256": "992d4fd38d318c47664279e9a1f8acc23b2ae5fba4feb2fa93e129736fa7d376",
+      "bytes": 2738
+    },
+    {
+      "path": "src/battle/battleBriefing.js",
+      "sha256": "acac5273b10a00c248ffc13d585e0a6059824ad2830de1b6bb0250eb878178bc",
+      "bytes": 555
+    },
+    {
+      "path": "src/battle/battleCheckpoint.js",
+      "sha256": "e13d40fb587e39d3ce5b8842594748f7dec979dc5935923347aea02d904200bb",
+      "bytes": 10664
+    },
+    {
+      "path": "src/battle/battleDebrief.js",
+      "sha256": "31d4d2007765a2138335e74d4637a9c97301925ca6e63a208725ab25f2af637d",
+      "bytes": 5304
+    },
+    {
+      "path": "src/battle/battleDefinitions.js",
+      "sha256": "910706bad4155c5b514a5fe73e7e701c8ec432abe1485f1ee7db9c901e8778d7",
+      "bytes": 19682
+    },
+    {
+      "path": "src/battle/battleSound.js",
+      "sha256": "94f955b550d21bf23579c8ee07d6e22c95a969f160575a56c13fe47269561916",
+      "bytes": 3918
+    },
+    {
+      "path": "src/battle/cavalryContactMesh.js",
+      "sha256": "4c2dec5adf2dc1b63e08607a1feeed5b326a5754b287d3e1dc7ca894d998f6fd",
+      "bytes": 1393
+    },
+    {
+      "path": "src/battle/cavalryContactMotion.js",
+      "sha256": "ffd755123d56b7f691050076960ab2deb016fb08778c64c463baa3aed681001f",
+      "bytes": 2355
+    },
+    {
+      "path": "src/battle/cavalryMotion.js",
+      "sha256": "446c71f13cd907ef17b2cb1527be40ea8c1f3edbdc65ddee82445026fb79ea8f",
+      "bytes": 600
+    },
+    {
+      "path": "src/battle/cavalrySprites.js",
+      "sha256": "b616105cd52ddf3e4f52798ea66d43e7aaccba65ead44f215756ed1d36b671f8",
+      "bytes": 1595
+    },
+    {
+      "path": "src/battle/commandIndicator.js",
+      "sha256": "3bd0eec9d01f2a0f7e47f80ecc56b2a49491170bd9920fcd272c3cb2ec651f10",
+      "bytes": 1780
+    },
+    {
+      "path": "src/battle/commandReceipt.js",
+      "sha256": "8a8ee740b9280ea8555ec9f736bd0bd0bd255c64968ff56c410cd6e12e31d24e",
+      "bytes": 2366
+    },
+    {
+      "path": "src/battle/cowpensObjective.js",
+      "sha256": "c2ace9e1fff80d49e73e9c13e844b4d619e1d65f4832f281861be77b31794075",
+      "bytes": 5057
+    },
+    {
+      "path": "src/battle/defenseObjective.js",
+      "sha256": "43dc670e4d8c77e8fd2bd9dff2948a15a8bbdddd2fb35e8a0b47b1104649c9b7",
+      "bytes": 2470
+    },
+    {
+      "path": "src/battle/enemyCoordination.js",
+      "sha256": "250dad2e216f1c940eb287cdca4a6eed5c2f2f35a6c7a8a371977a1d235c761f",
+      "bytes": 1024
+    },
+    {
+      "path": "src/battle/escapeObjective.js",
+      "sha256": "60fea139d5f412d0f1be7f966be28e83ad6a25386ca2bf0415be9a952089d669",
+      "bytes": 2059
+    },
+    {
+      "path": "src/battle/evacuation.js",
+      "sha256": "9c608962297f364c2e96d883b5284f920e511a7116d4440b5c6bcff4f52b7b4f",
+      "bytes": 2921
+    },
+    {
+      "path": "src/battle/fergusonAtlas.js",
+      "sha256": "962803b80168ffef6272afc66cef92e3e53f24cdf811c9affdce0e4605bd20b5",
+      "bytes": 14079
+    },
+    {
+      "path": "src/battle/fergusonSprites.js",
+      "sha256": "8a7deb3378ab476c70bf5b3c3a3568f91c9242db97b79d352a8764d8f62fd739",
+      "bytes": 834
+    },
+    {
+      "path": "src/battle/figureMotion.js",
+      "sha256": "91fa484c61b871323f8d8cd3b5483bbdc752d75be82a4d9bed8819b0a529ebe5",
+      "bytes": 2208
+    },
+    {
+      "path": "src/battle/formationContact.js",
+      "sha256": "18c6456e119b4565f31b33d988d1b4e5b1041e5039f08322baf78d0de19bf2dc",
+      "bytes": 4264
+    },
+    {
+      "path": "src/battle/formationSpacing.js",
+      "sha256": "ec2656534d6b3aed547bfc6c72d406bb9c1ff36290d2b344bf79034604c0c825",
+      "bytes": 4155
+    },
+    {
+      "path": "src/battle/germanTricornSprites.js",
+      "sha256": "7937218ec6fa536bed994d9a7e8a57625cc957fc3faa3aceecfcdc1483fe5f57",
+      "bytes": 2178
+    },
+    {
+      "path": "src/battle/grenadierAtlas.js",
+      "sha256": "33d19a4cc45837e79fce724231365499abb0e34bd49b827c459bfacb0bd2d8e5",
+      "bytes": 14101
+    },
+    {
+      "path": "src/battle/historicalLandmarks.js",
+      "sha256": "1e6b1d9eb340eb9e93a7565c6da1ec341062d54d0ed5213b5e1e1a602a713bd2",
+      "bytes": 4613
+    },
+    {
+      "path": "src/battle/infantryActionFrames.js",
+      "sha256": "345d1b8459486b9a6cf7bda45ceb1ef8f217e45952f32c33282d190ce8a29f47",
+      "bytes": 1410
+    },
+    {
+      "path": "src/battle/infantryAnimation.js",
+      "sha256": "124c239b5b72179a82ef2865b4728d2305b6522a0356cd21eb3f62a7c213c08b",
+      "bytes": 1736
+    },
+    {
+      "path": "src/battle/infantryContactCycle.js",
+      "sha256": "4066df11310f987553e9bbc46db4bac860aead98a938d33552dfb5bb6b44ea25",
+      "bytes": 2354
+    },
+    {
+      "path": "src/battle/infantryContactSprites.js",
+      "sha256": "3b66050dba3db01698272b372e86affe91f367ee52bd00f1d109ed46c3c0c1a9",
+      "bytes": 2919
+    },
+    {
+      "path": "src/battle/infantryDepthMesh.js",
+      "sha256": "b37a2e85c75d8cad288a2c613dde8941ff62991bfe745934ee92e26ef3430331",
+      "bytes": 1233
+    },
+    {
+      "path": "src/battle/infantryDepthMotion.js",
+      "sha256": "b5ea27fe7057f86cace48b6386ebd49b96bd35cba984707225022869ae8b5789",
+      "bytes": 3993
+    },
+    {
+      "path": "src/battle/infantryDiagonalAtlas.js",
+      "sha256": "21f6b4396738751a0c03cb897bb8603ccda5f2d787fcc1f5d9557cee51ba1a14",
+      "bytes": 23024
+    },
+    {
+      "path": "src/battle/infantryDirectionalAtlas.js",
+      "sha256": "e9a526fc6909c48e2a6ee4aec01bd9c349a8f6a1a846de97374454745763eed7",
+      "bytes": 19543
+    },
+    {
+      "path": "src/battle/infantryDirectionalSprites.js",
+      "sha256": "825c206ad6d7f351d0328585f075aa49b4faa02da5591c65f78b5f1c25f6fa28",
+      "bytes": 1945
+    },
+    {
+      "path": "src/battle/infantryFacing.js",
+      "sha256": "846c59043814c2f8066b597aa016af1ee9ab8123fbac58dc61579dd015880a2d",
+      "bytes": 1399
+    },
+    {
+      "path": "src/battle/infantryHeading.js",
+      "sha256": "427f1f27785c3f8a81180c7f690de7c77b99e9f67316743924cbe4234f12d75c",
+      "bytes": 872
+    },
+    {
+      "path": "src/battle/infantryMarchSprites.js",
+      "sha256": "c2033fcfe0bcb9ac6f051963d304a6fa8f5ece8f9264cd5260a3ee6c105eb6b3",
+      "bytes": 2281
+    },
+    {
+      "path": "src/battle/infantryReloadSprites.js",
+      "sha256": "be8e820ef052a16d9c36abe2ba3121fee174980e480d19e38247de7fb5587af7",
+      "bytes": 2048
+    },
+    {
+      "path": "src/battle/infantryRigSprites.js",
+      "sha256": "0f8945bef21f54c60316f52d5e3dab776bbaac6c6b9a43fb918f3a61bb47042e",
+      "bytes": 3734
+    },
+    {
+      "path": "src/battle/infantrySpecialProfiles.js",
+      "sha256": "2b2ac81e2ea8c6076a7fa3978cc04451c68a1fa56ebaf934045084626ee9241b",
+      "bytes": 1663
+    },
+    {
+      "path": "src/battle/infantryStrideRig.js",
+      "sha256": "2cf1bf6c2e13cf2248eea97b69659bfafdd79b0dc21cb79434d185525f9a729c",
+      "bytes": 1723
+    },
+    {
+      "path": "src/battle/infantryTorsoMesh.js",
+      "sha256": "224c92b5f101378dcb83678bd856ce21c0097d17c42d34d5985e6bd4204087fc",
+      "bytes": 1330
+    },
+    {
+      "path": "src/battle/infantryTorsoMotion.js",
+      "sha256": "63aec3ddbff8ff0325a72c163244079b3da3a05b27e6ae58c664badaed75614a",
+      "bytes": 1645
+    },
+    {
+      "path": "src/battle/infantryVolleyVisuals.js",
+      "sha256": "811bc7bc1ef8dcd677f2d882c15b241c687d23cd93af15cb561d3e0d086e6950",
+      "bytes": 1159
+    },
+    {
+      "path": "src/battle/lineOfFire.js",
+      "sha256": "5f90d2b41539b7ee18dcbda043b5e7b8874bdde38e9bd447384e61b23d75a6ad",
+      "bytes": 1893
+    },
+    {
+      "path": "src/battle/meleeExchange.js",
+      "sha256": "d2ed62cddb8c4aa9b83035bd1daae70296474d5fc428f595a933530fc0d651a1",
+      "bytes": 1197
+    },
+    {
+      "path": "src/battle/objectiveSummary.js",
+      "sha256": "ada0a4f3ba662a7ac8bdb2272240750c49f6365e2df5273a15336faaebaf7b51",
+      "bytes": 1478
+    },
+    {
+      "path": "src/battle/repulseObjective.js",
+      "sha256": "a10964237f001744d2791501282d70ef46a4f55e06af4d4109266197ecfb203d",
+      "bytes": 867
+    },
+    {
+      "path": "src/battle/spriteChroma.js",
+      "sha256": "dc22a1b92b38b4bbaa8ce190f1c5076c6cffa498b0a448099df1c011dc05346c",
+      "bytes": 922
+    },
+    {
+      "path": "src/battle/spriteIslands.js",
+      "sha256": "9e1d55ece301ebd61a704cf9426c7776de37f16b87635dc6b29c34078e3709f2",
+      "bytes": 1087
+    },
+    {
+      "path": "src/battle/standards.js",
+      "sha256": "6b23ac89addc196033c10a3c1770305da40ccc383efc137a9ec3d811605ea7d0",
+      "bytes": 4036
+    },
+    {
+      "path": "src/battle/structureFootprints.js",
+      "sha256": "e2135152d2efec1ae379b82a9fea9d3daa79b5d11217356b9477c4f929dc491a",
+      "bytes": 985
+    },
+    {
+      "path": "src/battle/supportActionMotion.js",
+      "sha256": "5fe8463127293a8e9d57d159dffc1f6bc7725bd890de764483db0ed12fdbeb87",
+      "bytes": 1289
+    },
+    {
+      "path": "src/battle/supportActionSprites.js",
+      "sha256": "7a17e6264645c93380c60e2f806a411bd90094b2f91215e2b1c4c661a511503a",
+      "bytes": 1894
+    },
+    {
+      "path": "src/battle/terrainNavigation.js",
+      "sha256": "e0209acb77753f0cd81c71aca499b61d07d835678606a04e924ed470ba61c0e2",
+      "bytes": 11323
+    },
+    {
+      "path": "src/battle/trentonEngine.js",
+      "sha256": "8917d653dd8db29fd6632c2e75c0e9434af16957447d72c9eedc70e49b0cdd93",
+      "bytes": 27142
+    },
+    {
+      "path": "src/battle/unitIdentity.js",
+      "sha256": "f1e99240d620b3e4dc16653de7fef796f8450eec720fc0fd25b522b6b531cbc2",
+      "bytes": 5040
+    },
+    {
+      "path": "src/battle/unitSelection.js",
+      "sha256": "d66a95c61739535fe43798f6339aae1a5ebfd3084b368cbe90c4d2c147fb6285",
+      "bytes": 1086
+    },
+    {
+      "path": "src/battle/withdrawalAdvice.js",
+      "sha256": "eeaf85770921409484abb8723fc32416d9389e221366e462f2a1cf32d33e440b",
+      "bytes": 722
+    },
+    {
+      "path": "src/components/AppErrorBoundary.jsx",
+      "sha256": "bf64254727483ba1d8bc4ca667cffb4c2cec5f88d98729f6a64a89d66db4ffe6",
+      "bytes": 806
+    },
+    {
+      "path": "src/components/BattleAudio.jsx",
+      "sha256": "3f97b0e974cc42cdf448c378496fd0abf49b4f3d26fdc13aa9ec9cbce36cfc61",
+      "bytes": 1483
+    },
+    {
+      "path": "src/components/BattleDialog.jsx",
+      "sha256": "a0c4e79625e63c84aa79292b1e760c117057b30f76a7db712d4f2806ac171e86",
+      "bytes": 655
+    },
+    {
+      "path": "src/components/BattleGuide.jsx",
+      "sha256": "c019727b5c1f2d0025e14208750c3f47fa151c221ba4b4723188a7af7269651c",
+      "bytes": 5831
+    },
+    {
+      "path": "src/components/BattleObjective.jsx",
+      "sha256": "e067e82abda1029897e7f31ecb4860afd1d8ee475066958bc17a2f1ec391b413",
+      "bytes": 6724
+    },
+    {
+      "path": "src/components/BattleTutorial.css",
+      "sha256": "b1c68367b0265fadc77867c1938c2624a800afec1bd93884d96b48b919a53be9",
+      "bytes": 1381
+    },
+    {
+      "path": "src/components/BattleTutorial.jsx",
+      "sha256": "596f520c8e831e196410c35132dc6b8bd41e0dda8414a5eb8c3b94505002ddc2",
+      "bytes": 3019
+    },
+    {
+      "path": "src/components/CampaignDialog.jsx",
+      "sha256": "020d9454848522d909e05858ef08e24d1597daceeede8b058c9a76ae6624a44b",
+      "bytes": 732
+    },
+    {
+      "path": "src/components/HistoricalContext.jsx",
+      "sha256": "02b5e9293bdc3b825f4e8fc69add350b30eae6866b5e9d742f1963492845cad2",
+      "bytes": 1599
+    },
+    {
+      "path": "src/components/HistoricalLandmarks.jsx",
+      "sha256": "70249dfbdf0f434008160086b8fe892c771b5cc45f77314a222b45c7421da392",
+      "bytes": 603
+    },
+    {
+      "path": "src/components/MusicBar.jsx",
+      "sha256": "1899ee77c773e1c015f966a1b696b069d4ab7cad2c0690b9e8cf068934977e95",
+      "bytes": 2751
+    },
+    {
+      "path": "src/components/TrentonEncounter.jsx",
+      "sha256": "717c34c46b553b41fff66c0ecfcb782e4da21f8196111492201c57a0af4d95fb",
+      "bytes": 16343
+    },
+    {
+      "path": "src/game/battleStorage.js",
+      "sha256": "5eed6199ff394c9c2ddf2c6b5e4784aba00af6514305abbea3dfe705ef5964e8",
+      "bytes": 3080
+    },
+    {
+      "path": "src/game/campaign.js",
+      "sha256": "e6aa06fe75887499e068dec52296ac0a6f3c2ff628f2641b922d7ae948c5b1a2",
+      "bytes": 79239
+    },
+    {
+      "path": "src/game/campaignNarrative.js",
+      "sha256": "539c4ee0aa36ffda958b01d5db576c2c8d52b3bdb3638318d2d0988d903b6196",
+      "bytes": 6253
+    },
+    {
+      "path": "src/game/music.js",
+      "sha256": "7059f27b33ef13e573794efd881a3d93cd736e29ea493ba542a77d8220b385ff",
+      "bytes": 2638
+    },
+    {
+      "path": "src/game/publicAsset.js",
+      "sha256": "69f7b5f4ddd826e83598de3c566a78c97a0ae57c57509f851a6d10a8c6a31956",
+      "bytes": 202
+    },
+    {
+      "path": "src/game/scenes.js",
+      "sha256": "9c9dd783295151945fc3d7ae62c5abcc1ebbae6430fc79ed79e94469b36f6d81",
+      "bytes": 3461
+    },
+    {
+      "path": "src/game/storage.js",
+      "sha256": "99236867ec6b1adbdd083462b30f0af5087e03897e0def3039e7ea2246764044",
+      "bytes": 6775
+    },
+    {
+      "path": "src/game/tutorialProgress.js",
+      "sha256": "43963cc32d8f76d022e0acb5ce7f9e6852700e4e1be628ab83519d658d322f21",
+      "bytes": 2667
+    },
+    {
+      "path": "src/main.jsx",
+      "sha256": "aa192ef86843c20a4b9eb48494b5764f2cbed04bd1c894820a470c954aeefdca",
+      "bytes": 441
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "9ef1f6b7b1a29821ed962951d4129745938a20fdc849e0ccba26455b4c70a96a",
+      "bytes": 40021
+    },
+    {
+      "path": "vite.config.js",
+      "sha256": "fcf8b963df092684044f8918d547b35712e9ef8798458b5cbef73e1107ec0255",
+      "bytes": 543
+    }
+  ],
+  "runtime_and_media_unmodified": true
+}

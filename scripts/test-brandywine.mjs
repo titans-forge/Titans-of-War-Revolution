@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import {TrentonEngine} from '../src/battle/trentonEngine.js';
+import {evacuationStatus,updateScreen,atEvacuationExit} from '../src/battle/evacuation.js';
+import {battleDebrief} from '../src/battle/battleDebrief.js';
+const run=(e,t,dt=.05)=>{for(let i=0;i<Math.round(t/dt);i++)e.tick(dt);return e;};
+const fresh=()=>new TrentonEngine(17770911,'brandywine');
+function retreat(at,dt=.05){const e=fresh();run(e,at,dt);for(const u of e.formations.filter(u=>u.side==='continental'))e.order(u.id,'withdraw');return run(e,125,dt);}
+const success=retreat(50);assert.equal(success.outcome,'withdrawal');assert.equal(success.events.filter(e=>e.type==='report').length,1,'Completion report fires once');assert.ok(evacuationStatus(success).saved>=1938);assert.match(battleDebrief(success.snapshot()),/Chester Road/);assert.doesNotMatch(battleDebrief(success.snapshot()),/boats/);
+assert.deepEqual(success.snapshot(),retreat(50,.2).snapshot());
+assert.equal(retreat(0).outcome,'defeat','Saving troops without the delaying action cannot pass');assert.equal(retreat(35).outcome,'defeat','Thirty seconds means time under pressure, not time since deployment');assert.equal(retreat(80).outcome,'defeat','Delayed retreat can lose too many troops');
+const e=fresh(), rule=e.config.evacuation, unit=e.formations.find(u=>u.id==='wayne-ford'), enemy=e.formations.find(u=>u.id==='ferguson');
+e.order(unit.id,'withdraw');assert.deepEqual(unit.target,{x:170,y:610});unit.x=170;unit.y=100;e.advanceUnit(unit,.05);assert.ok(unit.active,'Reaching the same x coordinate outside the exit is insufficient');assert.equal(unit.evacuated,undefined);
+unit.x=170;unit.y=610;enemy.x=180;enemy.y=610;assert.ok(evacuationStatus(e).blocked);e.advanceUnit(unit,.05);assert.ok(unit.active,'Enemy occupation blocks departure');assert.equal(unit.moving,false);
+enemy.status='routed';assert.equal(evacuationStatus(e).blocked,false);e.advanceUnit(unit,.05);assert.equal(unit.evacuated,true,'Departure resumes when road is clear');assert.equal(unit.active,false);
+const dead=fresh(), du=dead.formations.find(u=>u.id==='wayne-ford');dead.route(du);du.x=170;du.y=610;dead.advanceUnit(du,.05);assert.equal(du.evacuated,undefined,'Routed troops cannot use safe departure');
+const screen=fresh(), sw=screen.formations.find(u=>u.id==='wayne-ford'), se=screen.formations.find(u=>u.id==='ferguson');se.x=800;se.y=430;updateScreen(screen,4);assert.equal(screen.screenSeconds,4);sw.strength=200;updateScreen(screen,4);assert.equal(screen.screenSeconds,4,'Token garrison cannot hold the approaches');sw.strength=1200;sw.x=450;updateScreen(screen,4);assert.equal(screen.screenSeconds,4,'Defending elsewhere does not count');sw.x=545;sw.order='withdraw';updateScreen(screen,4);assert.equal(screen.screenSeconds,4,'Withdrawing troops earn no defense time');
+assert.ok(atEvacuationExit({x:170,y:610},rule));assert.equal(atEvacuationExit({x:170,y:400},rule),false);
+const legacy=new TrentonEngine(1,'long_island');assert.equal(evacuationStatus(legacy).kind,'boats');assert.ok(atEvacuationExit({x:250,y:100},legacy.config.evacuation));
+assert.equal(fresh().terrainAt({x:540,y:520}).label,'Brandywine ford');assert.equal(fresh().terrainAt({x:700,y:100}).label,'Open ground');
+console.log('Brandywine passed: delaying action, correct exit geometry, blocked/resumed departure, routed exclusion, garrison strength, frame parity and Long Island compatibility.');

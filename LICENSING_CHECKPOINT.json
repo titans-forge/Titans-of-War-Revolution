@@ -1,0 +1,26 @@
+{
+  "schema": "forge_game_github_license_checkpoint_v1",
+  "release_id": "FG-LIC-20260930-04-GH1",
+  "game": "Titans of War: Revolution",
+  "repository": "titans-forge/Titans-of-War-Revolution",
+  "recorded_date": "2026-09-30",
+  "license": "Forge Game Hosting License 1.0",
+  "license_sha256": "28638be413f7815704fe68aed52a4ea4cb7bd4d28b35f2dca9b78d438a4a90bf",
+  "previous_mit_license_sha256": "f5ba04d99816b6e73a183fcba80bfdcdab78c82a075a21f183fe4ca4dfaa1cd9",
+  "previous_source_snapshot_sha256": "401a40c26d3b1b70887c23ea30486df5fe2a6f75ce3bf3e25c39807a3b380b06",
+  "previous_mit_commit": null,
+  "change_scope": "Source export, metadata, public-safe provenance and release-notice staging. No gameplay or media changes.",
+  "owner_upgrade_confirmation": "Owner confirms substantial game updates since the first licensed release; the source migration itself adds no gameplay or media changes.",
+  "release_policy": "Forge Game Hosting License 1.0 for covered Titans Forge-controlled material, including upgrades not already covered by an earlier grant. Previously granted MIT and third-party permissions remain unaffected.",
+  "prior_grants_preserved": true,
+  "third_party_and_media_terms_preserved": true,
+  "newly_authored_forge_paths": [
+    "LICENSE",
+    "LICENSING.md",
+    "LICENSING_CHECKPOINT.json",
+    "scripts/stage-release-licenses.mjs"
+  ],
+  "itch_source_equivalence": "65 of 65 original application/media archive members verified byte-identical; notice files checked separately. The selected earlier archive contained an MIT notice.",
+  "public_source_publication": "Prepared for authorized source publication; publication success must be verified separately.",
+  "approval": "Owner approved Revolution publication on September 30, 2026 and reaffirmed the Forge license for the upgraded edition. Earlier grants are retained."
+}

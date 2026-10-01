@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {saveCampaign,loadCampaign} from '../src/game/storage.js';
+import {INITIAL_STATE,applyBattleResult} from '../src/game/campaign.js';
+import {resolveCampaignBattle,campaignBattleKey,saveBattleProgress,loadBattleProgress,clearBattleProgress,BATTLE_STORAGE_KEY} from '../src/game/battleStorage.js';
+import {captureBattleCheckpoint,restoreBattleCheckpoint} from '../src/battle/battleCheckpoint.js';
+import {TrentonEngine} from '../src/battle/trentonEngine.js';
+const data=new Map();const storage={getItem:k=>data.get(k)??null,setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)};
+const campaign={...structuredClone(INITIAL_STATE),pendingBattle:'trenton'};
+assert.ok(saveCampaign(campaign,storage).ok);
+assert.equal(campaignBattleKey(campaign),campaignBattleKey(loadCampaign(storage)),'initial state schema version migration does not orphan checkpoint');
+const context={metrics:campaign.metrics,flags:campaign.flags};const engine=new TrentonEngine(17761226,'trenton',context);engine.attack('mercer','rall');for(let i=0;i<240;i++)engine.tick(.05);
+const checkpoint={engine:captureBattleCheckpoint(engine),selectedId:'mercer',camera:{x:100,y:20,zoom:1.4}};
+assert.ok(saveBattleProgress(campaign,checkpoint,storage).ok);
+const loaded=loadBattleProgress(loadCampaign(storage),storage);assert.deepEqual(loaded.checkpoint,checkpoint);assert.ok(restoreBattleCheckpoint(loaded.checkpoint.engine,'trenton',context));
+const changed={...campaign,turn:2};assert.equal(loadBattleProgress(changed,storage).checkpoint,null);
+saveCampaign(changed,storage);assert.equal(saveBattleProgress(campaign,checkpoint,storage).ok,false,'stale tab cannot replace a different campaign');
+saveCampaign(applyBattleResult(campaign,'trenton','victory'),storage);assert.equal(saveBattleProgress(campaign,checkpoint,storage).ok,false,'completed battle cannot resurrect checkpoint');
+assert.equal(saveBattleProgress(campaign,{engine:null},storage).ok,false);
+const blocked={getItem(){throw Error('blocked');},setItem(){throw Error('quota');},removeItem(){throw Error('blocked');}};
+assert.equal(saveBattleProgress(campaign,checkpoint,blocked).ok,false);assert.ok(loadBattleProgress(campaign,blocked).error);assert.equal(clearBattleProgress(blocked),false);
+const quota={...storage,setItem(){throw Error('quota');}};saveCampaign(campaign,storage);assert.match(saveBattleProgress(campaign,checkpoint,quota).error,/could not be saved/);
+for(const raw of ['{broken',JSON.stringify({version:100}), 'x'.repeat(2_000_001)]){data.set(BATTLE_STORAGE_KEY,raw);assert.ok(loadBattleProgress(campaign,storage).error);}
+assert.ok(clearBattleProgress(storage));assert.equal(loadBattleProgress(campaign,storage).checkpoint,null);
+console.log('Battle storage passed: campaign migration identity, paused checkpoint roundtrip, stale tabs, resolved battles, malformed data and storage/quota failures.');
+
+saveCampaign(campaign,storage);
+assert.equal(saveBattleProgress(campaign,{engine:null},storage).ok,false,'null engine rejected even with a matching saved campaign');
+assert.equal(resolveCampaignBattle(campaign,'victory',quota).ok,false,'failed result save leaves campaign pending');
+assert.equal(loadCampaign(storage).pendingBattle,'trenton');
+assert.ok(saveBattleProgress(campaign,checkpoint,storage).ok);
+const result=resolveCampaignBattle(campaign,'victory',storage);assert.ok(result.ok);assert.equal(loadCampaign(storage).pendingBattle,false);assert.equal(loadBattleProgress(campaign,storage).checkpoint,null);
+assert.equal(resolveCampaignBattle(campaign,'victory',storage).ok,false,'double result application rejected');
+console.log('Battle result transaction passed: failed saves retain pending battle, successful saves clear checkpoints, repeated/stale returns are rejected.');

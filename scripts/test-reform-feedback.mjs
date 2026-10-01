@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import {TrentonEngine} from '../src/battle/trentonEngine.js';
+import {battleDebrief} from '../src/battle/battleDebrief.js';
+const e=new TrentonEngine(49,'monmouth');
+const lee=e.formations.find(u=>u.id==='lee-advance');
+e.order(lee.id,'reform');
+assert.equal(e.snapshot().formations.find(u=>u.id===lee.id).reformBlocked,false);
+const enemy=e.formations.find(u=>u.side==='crown');
+enemy.x=lee.x+240;enemy.y=lee.y;
+assert.equal(e.reformBlocked(lee),true);
+e.tick(.05);assert.equal(lee.reformRemaining,8);
+for(const u of e.formations.filter(u=>u.side==='crown')){u.x=1100;u.y=600;}
+assert.equal(e.reformBlocked(lee),false);
+e.tick(.05);assert.ok(lee.reformRemaining<8);
+e.order(lee.id,'hold');assert.equal(e.reformBlocked(lee),false);
+e.order(lee.id,'reform');lee.status='routed';assert.equal(e.reformBlocked(lee),false);
+const objective={resisting:2,defense:{label:'Main line',seconds:60,requiredSeconds:60,strength:1527,requiredGarrison:1068,fighting:1527,requiredArmy:2135,contested:false,holding:true}};
+const result=battleDebrief({outcome:'defeat',objective});
+assert.match(result,/Too few troops remain fighting/);assert.doesNotMatch(result,/sufficient garrison|not completed|contest/);
+const multiple=battleDebrief({outcome:'defeat',objective:{...objective,defense:{...objective.defense,seconds:10,strength:100,contested:true,holding:false}}});
+for(const reason of ['defense time was not completed','contest the position','sufficient garrison','Too few troops'])assert.ok(multiple.includes(reason));
+console.log('Reform feedback and defense debrief passed: range boundary, blocked timer, recovery, cancellation, routing and simultaneous objective failures.');

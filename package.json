@@ -1,0 +1,42 @@
+{
+  "name": "titans-of-war-revolution",
+  "version": "1.0.2",
+  "private": true,
+  "description": "A local-first historical strategy game about command, political legitimacy, logistics, and the American Revolution.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Titans Forge LLC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node scripts/validate-content.mjs && node scripts/test-engine.mjs && node scripts/test-tactical-upgrades.mjs && node scripts/test-standards.mjs && node scripts/test-figure-motion.mjs && node scripts/test-battle-debrief.mjs && node scripts/test-campaign-narrative.mjs && node scripts/test-battle-sound.mjs && node scripts/test-evacuation.mjs && node scripts/test-defense-objective.mjs && node scripts/test-brandywine.mjs && node scripts/test-trenton-escape.mjs && node scripts/test-formation-spacing.mjs && node scripts/test-monmouth-defense.mjs && node scripts/test-unit-selection.mjs && node scripts/test-command-indicator.mjs && node scripts/test-terrain-navigation.mjs && node scripts/test-brandywine-navigation.mjs && node scripts/test-navigation-boundaries.mjs && node scripts/test-unit-identity.mjs && node scripts/test-campaign-persistence.mjs && node scripts/test-battle-tutorial.mjs && node scripts/test-command-receipt.mjs && node scripts/test-authored-terrain.mjs && node scripts/test-cowpens-counterattack.mjs && node scripts/test-navigation-command-recovery.mjs && node scripts/test-formation-contact.mjs && node scripts/test-contact-integrity.mjs && node scripts/test-contact-guardrails.mjs && node scripts/test-german-tricorn-sprites.mjs && node scripts/test-melee-fire-discipline.mjs && node scripts/test-enemy-coordination.mjs && node scripts/test-coordination-integration.mjs && node scripts/test-infantry-animation.mjs && node scripts/test-infantry-reload-sprites.mjs && node scripts/test-melee-exchange.mjs && node scripts/test-infantry-action-frames.mjs && node scripts/test-infantry-contact-sprites.mjs && node scripts/test-infantry-march-sprites.mjs && node scripts/test-infantry-contact-cycle.mjs && node scripts/test-sprite-chroma.mjs && node scripts/test-infantry-thrust-sprites.mjs && node scripts/test-cavalry-animation.mjs && node scripts/test-artillery-animation.mjs && node scripts/test-artillery-fire-discipline.mjs && node scripts/test-infantry-stride-rig.mjs && node scripts/test-infantry-rig-sprites.mjs && node scripts/test-infantry-uniform-rigs.mjs && node scripts/test-torso-motion.mjs && node scripts/test-support-actions.mjs && node scripts/test-infantry-facing.mjs && node scripts/test-infantry-depth-art.mjs && node scripts/test-infantry-heading.mjs && node scripts/test-infantry-diagonal-art.mjs && node scripts/test-depth-articulation.mjs && node scripts/test-ferguson-profile.mjs && node scripts/test-grenadier-profile.mjs && node scripts/test-cavalry-response.mjs && node scripts/test-artillery-travel.mjs && node scripts/test-artillery-march.mjs && node scripts/test-artillery-transport.mjs && node scripts/test-campaign-feedback.mjs && node scripts/test-battle-readiness.mjs && node scripts/test-withdrawal-completion.mjs && node scripts/test-historical-landmarks.mjs && node scripts/test-battle-checkpoint.mjs && node scripts/test-battle-storage.mjs && node scripts/test-structure-navigation.mjs && node scripts/test-wall-passage.mjs && node scripts/test-formation-clearance.mjs && node scripts/test-building-fire.mjs && node scripts/test-withdrawal-advice.mjs && node scripts/test-reform-feedback.mjs && node scripts/test-repulse-objective.mjs && node scripts/test-monmouth-opening-window.mjs && node scripts/test-public-assets.mjs && node scripts/test-music.mjs",
+    "validate": "npm test && npm run build",
+    "preview": "vite preview",
+    "audit:battle-balance": "node scripts/audit-battle-balance.mjs",
+    "audit:remaining-battles": "node scripts/audit-remaining-battles.mjs",
+    "audit:opening-options": "node scripts/audit-opening-options.mjs",
+    "postbuild": "node scripts/stage-release-licenses.mjs"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "phaser": "^3.90.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/titans-forge/Titans-of-War-Revolution.git"
+  },
+  "bugs": {
+    "url": "https://github.com/titans-forge/Titans-of-War-Revolution/issues"
+  },
+  "homepage": "https://titans-forge.itch.io/titans-of-war-revolution"
+}

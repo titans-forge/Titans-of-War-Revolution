@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {TrentonEngine} from '../src/battle/trentonEngine.js';
+import {withdrawalAdvice} from '../src/battle/withdrawalAdvice.js';
+for (const battle of ['long_island', 'brandywine']) {
+  const engine = new TrentonEngine(48, battle, {metrics:{army:50,supply:50,support:50}});
+  const unit = engine.formations.find(u=>u.side==='continental' && u.active && u.type==='infantry');
+  const advice = () => withdrawalAdvice(unit, engine.objectiveStatus(), engine.outcome);
+  assert.equal(advice(), null);
+  engine.order(unit.id, 'withdraw');
+  assert.match(advice(), /Delaying action incomplete/);
+  assert.match(advice(), /Withdrawing formations do not count/);
+  engine.order(unit.id, 'hold');
+  assert.equal(advice(), null, 'cancelling the order clears advice');
+  engine.order(unit.id, 'withdraw');
+  engine.screenSeconds = engine.config.evacuation.screenSeconds - .01;
+  assert.match(advice(), /1s still needed/);
+  engine.screenSeconds = engine.config.evacuation.screenSeconds;
+  assert.equal(advice(), null, 'completed screen needs no warning');
+  engine.screenSeconds = 0;
+  engine.outcome = 'defeat';
+  assert.equal(advice(), null, 'completed battle has debrief instead');
+  engine.outcome = 'undecided';
+  unit.status = 'routed';
+  assert.equal(advice(), null);
+  unit.status = 'steady'; unit.active = false;
+  assert.equal(advice(), null);
+}
+assert.equal(withdrawalAdvice(null, null), null);
+const trenton = new TrentonEngine(48, 'trenton');
+const unit = trenton.formations.find(u=>u.side==='continental');
+trenton.order(unit.id,'withdraw');
+assert.equal(withdrawalAdvice(unit,trenton.objectiveStatus(),trenton.outcome),null);
+console.log('Withdrawal advice passed: river and road objectives, cancellation, completion, routing, and unrelated battles.');

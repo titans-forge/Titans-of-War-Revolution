@@ -1,0 +1,13 @@
+.battle-tutorial { position:fixed; z-index:1500; right:18px; top:92px; width:min(390px,calc(100vw - 36px)); padding:16px; color:#eee7d5; background:rgba(20,27,22,.97); border:1px solid #d2b354; box-shadow:0 14px 45px #0009; }
+.battle-tutorial-head, .battle-tutorial-head > div { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.battle-tutorial-head span { color:#d2b354; font-size:11px; font-weight:900; letter-spacing:.1em; text-transform:uppercase; }
+.battle-tutorial-head strong { font-variant-numeric:tabular-nums; }
+.battle-tutorial-head button { color:#d8d8d0; background:transparent; border:0; text-decoration:underline; cursor:pointer; }
+.battle-tutorial h2 { margin:14px 0 7px; font:700 24px Georgia,serif; }
+.battle-tutorial p { margin:0 0 12px; color:#c8cbc3; line-height:1.45; }
+.battle-tutorial progress { width:100%; accent-color:#d2b354; }
+.battle-tutorial .tutorial-ready { width:100%; min-height:42px; margin-top:12px; color:#171811; background:#d2b354; border:0; font-weight:900; cursor:pointer; }
+@media(max-width:720px) { .battle-tutorial { position:sticky; inset:0 auto auto; width:auto; box-sizing:border-box; box-shadow:none; } }
+
+@media (min-width: 721px) { .battle-tutorial { max-height: calc(100dvh - 180px); overflow-y: auto; } }
+@media (min-width: 721px) { .battle-tutorial { top:168px; max-height:calc(100dvh - 240px); } }
