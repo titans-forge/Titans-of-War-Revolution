@@ -1,52 +1,21 @@
-# Licensing checkpoint: Titans of War: Revolution
+# Licensing: Titans of War: Revolution
 
-Checkpoint: **FG-LIC-20260930-04-GH1**. Prepared September 30, 2026.
-This checkpoint accompanies the upgraded edition approved for publication under
-the Forge Game Hosting License on September 30, 2026.
+Current packaging edition: **FG2-TITANS-OF-WAR-REVOLUTION-20261015**, October 15, 2026. This is a **licensing-only edition** of `titans-of-war-revolution-web-v1.0.2-fgl1-20260930.zip`. Gameplay and media are unchanged. The game/package version remains 1.0.2; the edition identifier distinguishes the new notices.
 
-## Upgraded edition and migration boundary
+## Forge Game License 2.0
 
-The owner confirms the game has been substantially updated since its first
-licensed release. Those existing gameplay upgrades are distinct from this
-source migration: the migration itself changes packaging and documentation,
-not gameplay or media. The current release policy is the Forge license for
-Titans Forge-controlled material within its stated scope, subject to existing
-grants and separately licensed components. Retaining a legacy MIT notice does
-not automatically license future additions under MIT.
+The owner authorized Forge Game License 2.0 for qualifying newly supplied Forge-controlled contributions and future identified releases. Companies and other legal entities with gross annual revenue strictly over US$1,000,000, including controlled subsidiaries as defined in the full terms, need separate written permission for **either public hosting or AI training on covered new material**. The requirements are independent. The training condition includes qualifying private/internal training, fine-tuning, distillation and intended training datasets. There is no automatic educational-institution exemption. Ordinary play, private classroom play and AI-assisted editing/inference without model training remain permitted as defined in `LICENSE`. Applicable statutory rights are preserved. This is source-available licensing, not an OSI-approved open-source license.
 
-## Current policy and earlier MIT grants
+## Earlier permissions remain available
 
-The current project policy is [Forge Game Hosting License 1.0](LICENSE), a
-source-available licence rather than an OSI-approved open-source licence. For
-newly covered material only, companies with gross annual revenue over
-US$1,000,000 need a separate agreement to publicly host their own playable copy.
-See the full terms for scope, exemptions and preserved platform permissions.
+The entire previously published gameplay and media in this packaging edition keep their existing permissions. Earlier MIT, Forge 1.0, Forge 1.1, platform and third-party grants remain available for material to which they apply, including earlier portions of modified files. No changed version, filename, hash or root notice withdraws them. The AI clause does not retroactively restrict previously licensed material. Its prospective scope here is qualifying new expression in the added/revised licensing documentation, offline licensing page and packaging checks. A changed-path inventory does not declare every byte newly licensed or copyrightable. No rights in public-domain works, historical facts, ideas or unprotectable material are newly claimed.
 
-The selected original source includes an MIT notice, retained byte-for-byte in
-[LICENSE-LEGACY-MIT.txt](LICENSE-LEGACY-MIT.txt). Its SHA-256 is
-`f5ba04d99816b6e73a183fcba80bfdcdab78c82a075a21f183fe4ca4dfaa1cd9`. Previously MIT-licensed material remains usable and hostable
-under MIT. This export cannot make identical earlier MIT material exclusively
-Forge-licensed. No old release is overwritten. In particular, the itch build
-selected for this export already contained an MIT notice, and the rebuilt
-original application/media members match that archived build byte-for-byte.
-Its existing grants therefore cannot be treated as revoked by this checkpoint.
-The prior working-file snapshot is identified by SHA-256 `401a40c26d3b1b70887c23ea30486df5fe2a6f75ce3bf3e25c39807a3b380b06`;
-there is no invented prior Git commit. The preserved runtime-file hashes are
-listed in [SOURCE_SNAPSHOT.json](SOURCE_SNAPSHOT.json).
+The exact prior root license is `LICENSE-LEGACY-PRE-FORGE-2.0.txt` (SHA-256 `28638be413f7815704fe68aed52a4ea4cb7bd4d28b35f2dca9b78d438a4a90bf`). Prior policy records and snapshots are preserved in `docs/licensing-history/2026-10-15-before-forge-2.0/`; these are historical evidence, not a claim that this notice-only update changed the game. Existing MIT/media/dependency notices remain untouched. Earlier source is commit `56c07290c27fa15267653d60c438114d9b53b3d2`, tree `bc7d08a7922a5b66e1d7e9c2a88473ac5e256bd0`. The previously qualified browser ZIP is `titans-of-war-revolution-web-v1.0.2-fgl1-20260930.zip` (SHA-256 `95c455520e0986f2184bbbe8dc6b8be0e06039f6dd4e96fda349009e7511a185`). In the new ZIP, prior notices replaced at the root are retained byte-for-byte under `licenses/prior-release/`. All other original entries are retained byte-for-byte.
 
-Newly authored checkpoint documents and release-notice staging support are
-offered under the Forge terms. Owner-controlled upgraded game material not
-already granted under MIT or other terms is also covered by the Forge release
-policy. This checkpoint does not claim an exclusive Forge grant over identical
-previously MIT-supplied material. Future covered game changes need an identifiable
-release boundary. Dependencies, media and prior grants retain their own terms;
-the root licence is not a blanket claim over third-party or generated assets.
-See [MEDIA_RIGHTS.md](MEDIA_RIGHTS.md) and [the public media inventory](docs/MEDIA_PROVENANCE_PUBLIC.json).
+## Distribution and packaging
 
-`npm run build` stages rights notices after the build. Direct Vite invocation
-does not perform that lifecycle step: run `node scripts/stage-release-licenses.mjs`
-and then its `--check` mode before redistributing a direct build.
-The source-publication preflight verified 65 of 65 original application/media
-members against the recorded itch archive. Licensing notices were checked
-separately. This is a payload-identity check, not a complete legal rights audit.
-No private Git history is exported.
+Titans Forge authorizes this official GitHub/itch licensing update. Existing distribution permissions remain intact; distribution authority is not itself AI-training authority over qualifying new material. Apple distribution may be separately authorized with compatible player terms while preserving prior and third-party grants. This pass does not accept an Apple agreement or submit an Apple app.
+
+Read the complete policy in `LICENSE`, the source adoption record in `LICENSE_ADOPTION_SOURCE.json`, and the release-specific scope in `LICENSING_CHECKPOINT.json`. The archive root also contains an offline `licensing.html` page and full notices. Existing in-game credits describe the earlier gameplay grants, which remain available; this new policy is prospective.
+
+Separate hosting or AI-training permissions come only from a written agreement with Titans Forge LLC identifying the authorized activity. No fee is set by these community terms. Contact: https://titans-forge.itch.io/.
